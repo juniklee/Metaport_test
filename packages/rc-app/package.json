@@ -1,0 +1,22 @@
+{
+  "name": "rc-app",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "scripts": {
+    "develop": "webpack-dev-server",
+    "build-prod": "webpack --mode=production",
+    "build-dev": "webpack --mode=development",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@mp/common": "^1.0.0",
+    "eventemitter3": "^4.0.7",
+    "rc-table": "^7.8.0",
+    "xstate": "^4.32.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0"
+  }
+}
